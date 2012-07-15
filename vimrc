@@ -12,3 +12,6 @@ filetype plugin indent on
 call pathogen#infect()
 call pathogen#helptags()
 
+" http://www.vim.org/scripts/script.php?script_id=1891
+colorscheme vividchalk
+
