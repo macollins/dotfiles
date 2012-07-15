@@ -1,0 +1,7 @@
+# Environment variables
+
+export EDITOR=/usr/local/bin/vim
+
+export PATH=~/bin:/usr/local/sbin:/usr/local/bin:/usr/local/mongodb/bin:$PATH
+
+export CC=gcc-4.2

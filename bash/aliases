@@ -1,0 +1,22 @@
+# ps
+alias ps?='ps -ef | grep --color'
+
+# history
+alias h='history'
+alias h?='history | grep --color'
+
+# Ruby
+alias bx='bundle exec'
+
+# top
+alias tc='top -o cpu'
+alias tm='top -o vsize'
+
+# miscellaneous
+alias c='clear'
+alias o='open'
+
+# movement
+alias cdd='cd ~/Development'
+
+
