@@ -15,6 +15,9 @@ call pathogen#helptags()
 " General Settings
 " ================
 
+" Explicitly define local leader
+let mapleader="\\"
+
 " See www.vim.org/scripts/script.php?script_id=1891
 colorscheme vividchalk
 
@@ -42,6 +45,5 @@ set incsearch
 
 " Highlight search results
 set hlsearch
-
 
 
