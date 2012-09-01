@@ -29,3 +29,8 @@ set cursorline cursorcolumn
 
 " Don't wrap lines
 set nowrap
+
+" A more informative status line positioned just above the command buffer
+set statusline=%F%m%r%h%w\ [POS=%04l,%04v]\ [LINES=%L]
+set laststatus=2
+
