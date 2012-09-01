@@ -27,3 +27,5 @@ set number
 " Highlight line and column cursor is on
 set cursorline cursorcolumn
 
+" Don't wrap lines
+set nowrap
