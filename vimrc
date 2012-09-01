@@ -12,11 +12,15 @@ filetype plugin indent on
 call pathogen#infect()
 call pathogen#helptags()
 
-" General Config
-" ==============
+" General Settings
+" ================
 
 " See www.vim.org/scripts/script.php?script_id=1891
 colorscheme vividchalk
 
 " Use visual instead of audible bell
 set visualbell
+
+" Show line numbers
+set number
+
