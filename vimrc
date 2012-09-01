@@ -27,7 +27,7 @@ set visualbell
 " Show line numbers
 set number
 
-" Highlight line and column cursor is on
+" Highlight cursor line and column
 set cursorline cursorcolumn
 
 " Don't wrap lines
@@ -45,5 +45,14 @@ set incsearch
 
 " Highlight search results
 set hlsearch
+
+" Development Settings
+" ====================
+
+" Highlight characters after line 80
+highlight LineLengthError ctermbg=darkgrey guibg=darkgrey ctermfg=white guifg=black
+autocmd BufRead,InsertEnter,InsertLeave * match LineLengthError /\%>80v.\+/
+
+
 
 
