@@ -53,6 +53,9 @@ set hlsearch
 highlight LineLengthError ctermbg=darkgrey guibg=darkgrey ctermfg=white guifg=black
 autocmd BufRead,InsertEnter,InsertLeave * match LineLengthError /\%>80v.\+/
 
-
+" Highlight trailing whitespace
+highlight ExtraWhiteSpace ctermbg=red guibg=red
+autocmd InsertEnter * 2match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd BufRead,InsertLeave * 2match ExtraWhitespace /\s\+$/
 
 
