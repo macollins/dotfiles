@@ -66,4 +66,10 @@ highlight ExtraWhiteSpace ctermbg=red guibg=red
 autocmd InsertEnter * 2match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd BufRead,InsertLeave * 2match ExtraWhitespace /\s\+$/
 
+" Replace tabs with spaces
+set expandtab
+
+" Tabs are two spaces
+set shiftwidth=2
+set softtabstop=2
 
