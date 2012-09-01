@@ -24,3 +24,6 @@ set visualbell
 " Show line numbers
 set number
 
+" Highlight line and column cursor is on
+set cursorline cursorcolumn
+
