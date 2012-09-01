@@ -34,3 +34,14 @@ set nowrap
 set statusline=%F%m%r%h%w\ [POS=%04l,%04v]\ [LINES=%L]
 set laststatus=2
 
+" Search Settings
+" ===============
+
+" Incremental search
+set incsearch
+
+" Highlight search results
+set hlsearch
+
+
+
