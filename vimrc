@@ -3,6 +3,7 @@ set nocompatible
 
 set encoding=utf-8
 
+" =================
 " OS X GUI Settings
 " =================
 if has("gui_running")
@@ -11,6 +12,7 @@ if has("gui_running")
   set guioptions=t " Hide MacVim toolbar
 end
 
+" ==============
 " Pathogen Setup
 " ==============
 " Allow pathogen.vim to be used as a Git submodule. See github.com/tpope/vim-pathogen
@@ -20,6 +22,7 @@ filetype plugin indent on
 call pathogen#infect()
 call pathogen#helptags()
 
+" ==================
 " NERD Tree Settings
 " ==================
 
@@ -27,6 +30,7 @@ call pathogen#helptags()
 " See www.catonmat.net/blog/vim-plugins-nerdtree-vim
 map <F2> :NERDTreeToggle<CR>
 
+" ================
 " General Settings
 " ================
 
@@ -52,6 +56,7 @@ set nowrap
 set statusline=%F%m%r%h%w\ [POS=%04l,%04v]\ [LINES=%L]
 set laststatus=2
 
+" ===============
 " Search Settings
 " ===============
 
@@ -61,6 +66,10 @@ set incsearch
 " Highlight search results
 set hlsearch
 
+" Clear highlighting of search results
+map <silent> <LocalLeader>nh :nohls<CR>
+
+" ====================
 " Development Settings
 " ====================
 
