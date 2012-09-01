@@ -66,6 +66,7 @@ highlight ExtraWhiteSpace ctermbg=red guibg=red
 autocmd InsertEnter * 2match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd BufRead,InsertLeave * 2match ExtraWhitespace /\s\+$/
 
+" See vimcasts.org/episodes/tabs-and-spaces
 " Replace tabs with spaces
 set expandtab
 
