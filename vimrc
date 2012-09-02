@@ -25,6 +25,11 @@ map <F2> :NERDTreeToggle<CR>
 " General Settings
 " ================
 
+" Turn off swap and backup files
+set noswapfile
+set nobackup
+set nowb
+
 " Explicitly define local leader
 let mapleader="\\"
 
