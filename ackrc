@@ -1,5 +1,5 @@
 --type-set
-ignorables=.log,.tmp,.pdf
+ignorables=.log,.tmp,.pdf,.DS_Store
 
 --ignore-dir=vendor
 --ignore-dir=log
