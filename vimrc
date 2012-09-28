@@ -21,6 +21,14 @@ call pathogen#helptags()
 " See www.catonmat.net/blog/vim-plugins-nerdtree-vim
 map <F2> :NERDTreeToggle<CR>
 
+" ==============
+" CtrlP Settings
+" ==============
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll|.DS_Store)$'
+  \ }
+
 " ================
 " General Settings
 " ================
