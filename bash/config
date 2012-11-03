@@ -1,3 +1,5 @@
+set -o vi
+
 # Don't log repeated commands or commands beginning with a space
 HISTIGNORE="&:[ ]*"
 
