@@ -1,3 +1,6 @@
+# Don't log repeated commands or commands beginning with a space
+HISTIGNORE="&:[ ]*"
+
 # Prompt & shell settings
 
 # A better prompt
