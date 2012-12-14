@@ -26,7 +26,7 @@ map <F2> :NERDTreeToggle<CR>
 " ==============
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-  \ 'file': '\v\.(exe|so|dll|.DS_Store)$'
+  \ 'file': '\v\.(exe|so|dll|.DS_Store|pyc)$'
   \ }
 
 " ================
