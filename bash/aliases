@@ -19,4 +19,6 @@ alias o='open'
 # movement
 alias cdd='cd ~/Development'
 
-
+# MySQL
+alias mysql-start='sudo mysqld_safe'
+alias mysql-stop='mysqladmin -u root shutdown'
