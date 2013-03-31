@@ -3,6 +3,9 @@ set nocompatible
 
 set encoding=utf-8
 
+" Explicitly define leader
+let mapleader="\\"
+
 " ==============
 " Pathogen Setup
 " ==============
@@ -39,7 +42,7 @@ set nobackup
 set nowb
 
 " Explicitly define local leader
-let mapleader="\\"
+"let mapleader="\\"
 
 " See www.vim.org/scripts/script.php?script_id=1891
 colorscheme vividchalk
