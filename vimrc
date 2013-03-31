@@ -32,6 +32,14 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(exe|so|dll|.DS_Store|pyc)$'
   \ }
 
+" ===================
+" Tabularize Settings
+" ===================
+nmap <Leader>t= :Tabularize /=<CR>
+vmap <Leader>t= :Tabularize /=<CR>
+nmap <Leader>t: :Tabularize /:\zs<CR>
+vmap <Leader>t: :Tabularize /:\zs<CR>
+
 " ================
 " General Settings
 " ================
