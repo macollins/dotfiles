@@ -49,9 +49,6 @@ set noswapfile
 set nobackup
 set nowb
 
-" Explicitly define local leader
-"let mapleader="\\"
-
 " See www.vim.org/scripts/script.php?script_id=1891
 colorscheme vividchalk
 
@@ -63,6 +60,9 @@ set number
 
 " Highlight cursor line and column
 set cursorline cursorcolumn
+
+" Start scrolling n lines before bottom of screen
+set scrolloff=12
 
 " Don't wrap lines
 set nowrap
