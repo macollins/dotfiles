@@ -44,6 +44,9 @@ vmap <Leader>t: :Tabularize /:\zs<CR>
 " General Settings
 " ================
 
+" Increase history from 20 default
+set history=50
+
 " Turn off swap and backup files
 set noswapfile
 set nobackup
