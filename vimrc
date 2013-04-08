@@ -84,6 +84,12 @@ set incsearch
 " Highlight search results
 set hlsearch
 
+" Ignore case for search pattern
+set ignorecase
+
+" Override 'ignorecase' when pattern contains upper case character
+set smartcase
+
 " Clear highlighting of search results
 map <silent> <LocalLeader>nh :nohls<CR>
 
