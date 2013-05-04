@@ -97,10 +97,6 @@ map <silent> <LocalLeader>nh :nohls<CR>
 " Development Settings
 " ====================
 
-" Highlight hamlc as haml
-" TODO Extract to ftdetect/haml.vim
-autocmd BufRead,BufNewFile *.hamlc set ft=haml
-
 " Highlight characters after line 80
 highlight LineLengthError ctermbg=darkgrey guibg=darkgrey ctermfg=white guifg=black
 autocmd BufRead,InsertEnter,InsertLeave * match LineLengthError /\%>80v.\+/
