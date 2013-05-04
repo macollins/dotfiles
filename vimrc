@@ -98,7 +98,8 @@ map <silent> <LocalLeader>nh :nohls<CR>
 " ====================
 
 " Highlight hamlc as haml
-au BufRead,BufNewFile *.hamlc set ft=haml
+" TODO Extract to ftdetect/haml.vim
+autocmd BufRead,BufNewFile *.hamlc set ft=haml
 
 " Highlight characters after line 80
 highlight LineLengthError ctermbg=darkgrey guibg=darkgrey ctermfg=white guifg=black
