@@ -1,9 +1,13 @@
+# Prompt & shell settings
+
+# Don't need no Emacs (though <Ctrl>-A and <Ctrl>-E are nice)
 set -o vi
 
 # Don't log repeated commands or commands beginning with a space
 HISTIGNORE="&:[ ]*"
 
-# Prompt & shell settings
+# Ignore case when searching and improve the prompt"
+export LESS="--ignore-case --prompt=%f (%i/%m) Line %lt/%L"
 
 # A better prompt
 PS1='[\[\e[1;33m\]\u@\h \[\e[1;34m\]\w\[\e[1;35m\]\[\e[0m\]] \$ '
