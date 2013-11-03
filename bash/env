@@ -14,7 +14,7 @@ export RVM=$HOME/.rvm/bin
 # Added by the Heroku Toolbelt
 export HEROKU=/usr/local/heroku/bin
 
-export PATH=$RVM:$HEROKU:/usr/local/sbin:~/bin:/usr/local/bin:$MONGODB:$MYSQL:$PATH
+export PATH=$RVM:$HEROKU:/usr/local/sbin:~/bin:/usr/local/bin:/usr/local/share/npm/bin:$MONGODB:$MYSQL:$PATH
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
