@@ -54,6 +54,9 @@ set noswapfile
 set nobackup
 set nowb
 
+" Disable entering Ex mode
+:map Q <Nop>
+
 " See www.vim.org/scripts/script.php?script_id=1891
 colorscheme vividchalk
 
