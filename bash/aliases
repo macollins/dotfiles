@@ -16,6 +16,7 @@ alias tm='top -o vsize'
 alias c='clear'
 alias ll='ls -hl'
 alias lla='ls -hal'
+alias llt='ls -hltr'
 alias o='open'
 
 # movement
