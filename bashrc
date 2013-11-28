@@ -1,4 +1,4 @@
-source ~/bin/dotfiles/bash/env
-source ~/bin/dotfiles/bash/config
-source ~/bin/dotfiles/bash/aliases
-source ~/bin/dotfiles/bash/functions
+source ~/dotfiles/bash/env
+source ~/dotfiles/bash/config
+source ~/dotfiles/bash/aliases
+source ~/dotfiles/bash/functions
