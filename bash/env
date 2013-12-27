@@ -1,6 +1,6 @@
 # Environment variables
 
-export EDITOR=/usr/local/bin/vim
+export EDITOR=/usr/bin/vim
 
 export CC=gcc-4.2
 
