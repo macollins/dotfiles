@@ -14,10 +14,13 @@ alias tm='top -o vsize'
 
 # miscellaneous
 alias c='clear'
+alias o='open'
+
+# ls
 alias ll='ls -hl'
 alias lla='ls -hal'
 alias llt='ls -hltr'
-alias o='open'
+alias lsd='ls -l | grep "^d" ' # list directories only
 
 # movement
 alias cdd='cd ~/Development'
