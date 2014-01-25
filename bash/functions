@@ -3,7 +3,8 @@
 #   [ username@host ~/dev/dir master ] $   # clean working directory
 #   [ username@host ~/dev/dir master* ] $  # dirty working directory
 function parse_git_dirty {
-  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "*"
+  status=$(git status 2> /dev/null | tail -n1)
+  [[ $status != "nothing to commit (working directory clean)" ]] || [[ $status != "nothing to commit, working directory clean" ]] && echo "*"
 }
 
 function parse_git_branch {
