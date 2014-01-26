@@ -5,9 +5,6 @@ alias ps?='ps -ef | grep --color'
 alias h='history'
 alias h?='history | grep --color'
 
-# Ruby
-alias bx='bundle exec'
-
 # top
 alias tc='top -o cpu'
 alias tm='top -o vsize'
@@ -34,5 +31,7 @@ alias st='open -a SourceTree '
 
 # Bundler
 alias be='bundle exec '
+alias bx='bundle exec '
 alias bi='bundle install '
 alias bl='bundle list '
+
