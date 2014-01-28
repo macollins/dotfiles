@@ -70,7 +70,7 @@ set number
 set cursorline cursorcolumn
 
 " Start scrolling n lines before bottom of screen
-set scrolloff=12
+set scrolloff=8
 
 " Don't wrap lines
 set nowrap
