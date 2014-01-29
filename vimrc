@@ -63,8 +63,8 @@ colorscheme vividchalk
 " Use visual instead of audible bell
 set visualbell
 
-" Show line numbers
-set number
+" Show line numbers relative to current line
+set relativenumber
 
 " Highlight cursor line and column
 set cursorline cursorcolumn
