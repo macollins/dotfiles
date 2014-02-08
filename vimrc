@@ -66,6 +66,10 @@ set visualbell
 " Show line numbers relative to current line
 set relativenumber
 
+" Color line numbers
+highlight CursorLineNr term=bold ctermfg=LightGreen gui=bold guifg=MediumSeaGreen
+highlight LineNr       term=bold ctermfg=LightBlue  gui=bold guifg=SteelBlue
+
 " Highlight cursor line and column
 set cursorline cursorcolumn
 
