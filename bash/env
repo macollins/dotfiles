@@ -8,11 +8,8 @@ export MYSQL=/usr/local/mysql/bin
 
 export MONGODB=/usr/local/mongodb/bin
 
-# Add RVM to PATH for scripting
-export RVM=$HOME/.rvm/bin
-
 # Added by the Heroku Toolbelt
 export HEROKU=/usr/local/heroku/bin
 
-export PATH=$RVM:$HEROKU:/usr/local/sbin:~/bin:/usr/local/bin:/usr/local/share/npm/bin:$MONGODB:$MYSQL:$PATH
+export PATH=$HEROKU:/usr/local/sbin:~/bin:/usr/local/bin:/usr/local/share/npm/bin:$MONGODB:$MYSQL:$PATH
 

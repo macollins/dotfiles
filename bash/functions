@@ -22,5 +22,3 @@ function freq {
   history | awk '{print $2}' | awk 'BEGIN {FS="|"} {print $1}' | sort | uniq -c | sort -r | head -n 12
 }
 
-# Load RVM into a shell session as a function
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
