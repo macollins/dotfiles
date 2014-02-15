@@ -1,3 +1,9 @@
+# Load chuby if installed
+if [[ -e /usr/local/share/chruby ]]; then
+  source /usr/local/share/chruby/chruby.sh
+  source /usr/local/share/chruby/auto.sh
+fi
+
 # Show Git branch in prompt
 # Adapted from gist at: https://gist.github.com/henrik/31631
 #   [ username@host ~/dev/dir master ] $   # clean working directory
