@@ -11,6 +11,8 @@ alias tm='top -o vsize'
 
 # miscellaneous
 alias c='clear'
+
+# TODO Only define on OS X
 alias o='open'
 
 # ls
