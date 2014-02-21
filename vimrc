@@ -106,9 +106,8 @@ map <silent> <LocalLeader>nh :nohls<CR>
 " Development Settings
 " ====================
 
-" Highlight characters after line 80
-highlight LineLengthError ctermbg=darkgrey guibg=darkgrey ctermfg=white guifg=black
-autocmd BufRead,InsertEnter,InsertLeave * match LineLengthError /\%>80v.\+/
+" Highlight 80th column
+set colorcolumn=80
 
 " Highlight trailing whitespace
 highlight ExtraWhiteSpace ctermbg=red guibg=red
