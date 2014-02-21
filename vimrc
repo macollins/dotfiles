@@ -70,8 +70,8 @@ set relativenumber
 highlight CursorLineNr term=bold ctermfg=LightGreen gui=bold guifg=MediumSeaGreen
 highlight LineNr       term=bold ctermfg=LightBlue  gui=bold guifg=SteelBlue
 
-" Highlight cursor line and column
-set cursorline cursorcolumn
+" Highlight cursor line
+set cursorline
 
 " Start scrolling n lines before bottom of screen
 set scrolloff=8
