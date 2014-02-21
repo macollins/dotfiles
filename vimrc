@@ -52,7 +52,7 @@ set history=50
 " Turn off swap and backup files
 set noswapfile
 set nobackup
-set nowb
+set nowritebackup
 
 " Disable entering Ex mode
 :map Q <Nop>
