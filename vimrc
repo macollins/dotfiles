@@ -24,6 +24,9 @@ call pathogen#helptags()
 " See www.catonmat.net/blog/vim-plugins-nerdtree-vim
 map <F2> :NERDTreeToggle<CR>
 
+" Show hidden files
+let NERDTreeShowHidden = 1
+
 " ==============
 " CtrlP Settings
 " ==============
@@ -31,6 +34,7 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
   \ 'file': '\v\.(exe|so|dll|.DS_Store|pyc)$'
   \ }
+let g:ctrlp_show_hidden = 1
 
 " ===================
 " Tabularize Settings
