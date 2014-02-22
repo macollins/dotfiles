@@ -106,8 +106,9 @@ map <silent> <LocalLeader>nh :nohls<CR>
 " Development Settings
 " ====================
 
-" Highlight 80th column
-set colorcolumn=80
+" Highlight 80th column and columns beyond 100
+highlight ColorColumn ctermbg=246 guibg=#2c2d27
+let &colorcolumn="80,".join(range(100,200),",")
 
 " Highlight trailing whitespace
 highlight ExtraWhiteSpace ctermbg=red guibg=red
