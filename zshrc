@@ -14,7 +14,7 @@ alias zshconfig="mvim $DOTFILES/zshrc"
 alias dotfiles="mvim $DOTFILES"
 
 # Set to this to use case-sensitive completion
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment this to disable bi-weekly auto-update checks
 # DISABLE_AUTO_UPDATE="true"
