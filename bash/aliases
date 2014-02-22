@@ -1,9 +1,5 @@
-# ps
-alias ps?='ps -ef | grep --color'
-
 # history
 alias h='history'
-alias h?='history | grep --color'
 
 # top
 alias tc='top -o cpu'
