@@ -70,6 +70,9 @@ set visualbell
 " Show line numbers relative to current line
 set relativenumber
 
+" Increase width of line number column from default 4 chars
+set numberwidth=5
+
 " Color line numbers
 highlight CursorLineNr term=bold ctermfg=LightGreen gui=bold guifg=MediumSeaGreen
 highlight LineNr       term=bold ctermfg=LightBlue  gui=bold guifg=SteelBlue
