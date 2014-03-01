@@ -90,6 +90,18 @@ set nowrap
 set statusline=%F%m%r%h%w\ [POS=%04l,%04v]\ [LINES=%L]
 set laststatus=2
 
+" =================
+" Spelling Settings
+" =================
+
+" See http://vimcasts.org/episodes/spell-checking/
+
+" Set region to US English
+set spelllang=en_us
+
+" Toggle spell checking with <leader>s
+nmap <silent> <leader>s :set spell!<CR>
+
 " ===============
 " Search Settings
 " ===============
