@@ -39,12 +39,12 @@ let g:ctrlp_show_hidden = 1
 " ===================
 " Tabularize Settings
 " ===================
-nmap <Leader>t= :Tabularize /=<CR>
-vmap <Leader>t= :Tabularize /=<CR>
-nmap <Leader>t: :Tabularize /:\zs<CR>
-vmap <Leader>t: :Tabularize /:\zs<CR>
-nmap <Leader>t, :Tabularize /,\zs<CR>
-vmap <Leader>t, :Tabularize /,\zs<CR>
+nmap <leader>t= :Tabularize /=<CR>
+vmap <leader>t= :Tabularize /=<CR>
+nmap <leader>t: :Tabularize /:\zs<CR>
+vmap <leader>t: :Tabularize /:\zs<CR>
+nmap <leader>t, :Tabularize /,\zs<CR>
+vmap <leader>t, :Tabularize /,\zs<CR>
 
 " ================
 " General Settings
