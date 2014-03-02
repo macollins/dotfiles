@@ -52,8 +52,8 @@ plugins=(git vagrant brew bundler chruby gem)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-export PATH=$DOTFILES/bin:$HOME/bin:/usr/local/bin:$PATH
+export SHARE_PATH=/usr/local/share
+export PATH=$DOTFILES/bin:$SHARE_PATH/npm/bin:$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
