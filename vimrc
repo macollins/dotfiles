@@ -126,7 +126,7 @@ map <silent> <LocalLeader>nh :nohls<CR>
 " ====================
 
 " Highlight 80th column and columns beyond 100
-highlight ColorColumn ctermbg=246 guibg=#2c2d27
+highlight ColorColumn ctermbg=246 guibg=gray4
 let &colorcolumn="80,".join(range(100,200),",")
 
 " Highlight trailing whitespace
