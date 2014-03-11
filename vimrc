@@ -125,6 +125,10 @@ map <silent> <LocalLeader>nh :nohls<CR>
 " Development Settings
 " ====================
 
+" Setup text-object for Ruby blocks.
+" http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/
+runtime macros/matchit.vim
+
 " Highlight 80th column and columns beyond 100
 highlight ColorColumn ctermbg=246 guibg=gray4
 let &colorcolumn="80,".join(range(100,200),",")
