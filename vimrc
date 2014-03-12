@@ -67,8 +67,10 @@ colorscheme vividchalk
 " Use visual instead of audible bell
 set visualbell
 
-" Show line numbers relative to current line
+" Show line numbers using the hybrid line number mode
+" See http://jeffkreeftmeijer.com/2013/vims-new-hybrid-line-number-mode
 set relativenumber
+set number
 
 " Increase width of line number column from default 4 chars
 set numberwidth=5
