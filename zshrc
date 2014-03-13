@@ -51,6 +51,9 @@ plugins=(git vagrant brew bundler chruby gem)
 
 source $ZSH/oh-my-zsh.sh
 
+setopt auto_cd
+cdpath=(~ ~/Development ~/Dropbox)
+
 # User configuration
 export SHARE_PATH=/usr/local/share
 export PATH=$DOTFILES/bin:$SHARE_PATH/npm/bin:$HOME/bin:/usr/local/bin:$PATH
