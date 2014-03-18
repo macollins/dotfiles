@@ -56,7 +56,7 @@ cdpath=(~ ~/Development ~/Dropbox)
 
 # User configuration
 export SHARE_PATH=/usr/local/share
-export PATH=$DOTFILES/bin:$SHARE_PATH/npm/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=$DOTFILES/bin:$SHARE_PATH/npm/bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
