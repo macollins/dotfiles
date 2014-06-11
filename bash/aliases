@@ -33,3 +33,5 @@ alias bx='bundle exec '
 alias bi='bundle install '
 alias bl='bundle list '
 
+# Ack to Ag transition
+alias ack='echo "ack is spelt ag"'

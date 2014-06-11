@@ -123,6 +123,20 @@ set smartcase
 " Clear highlighting of search results
 map <silent> <LocalLeader>nh :nohls<CR>
 
+" ============================
+" Ths Silver Searcher Settings
+" ============================
+
+" See http://robots.thoughtbot.com/faster-grepping-in-vim
+if executable('ag')
+  " Use ag instead of grep
+  set grepprg=ag\ --no-group\ --no-color
+  " Use ag in CtrlP
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+  " No need for CtrlP to cache
+  let g:ctrlp_use_caching = 0
+endif
+
 " ====================
 " Development Settings
 " ====================
