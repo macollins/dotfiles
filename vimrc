@@ -145,9 +145,9 @@ endif
 " http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/
 runtime macros/matchit.vim
 
-" Highlight 80th column and columns beyond 100
-highlight ColorColumn ctermbg=246 guibg=gray4
-let &colorcolumn="80,".join(range(100,200),",")
+" Highlight 81st column
+highlight ColorColumn ctermbg=gray
+set colorcolumn=81
 
 " Highlight trailing whitespace
 highlight ExtraWhiteSpace ctermbg=red guibg=red
