@@ -146,8 +146,8 @@ endif
 runtime macros/matchit.vim
 
 " Highlight 81st column
-highlight ColorColumn ctermbg=gray
-set colorcolumn=81
+highlight ColorColumn ctermbg=Magenta guibg=Magenta
+call matchadd('ColorColumn', '\%81v', 100)
 
 " Highlight trailing whitespace
 highlight ExtraWhiteSpace ctermbg=red guibg=red
