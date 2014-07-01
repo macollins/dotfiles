@@ -1,3 +1,7 @@
+# Python Development
+export PIP_REQUIRE_VIRTUALENV=true     # Only run pip when virtualenv activated
+export PIP_DOWNLOAD_CACHE=~/.pip/cache # Cache pip installed packaged
+
 # Environment variables
 export EDITOR=/usr/bin/vim
 export CC=gcc-4.2
