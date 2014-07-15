@@ -92,6 +92,12 @@ set nowrap
 set statusline=%F%m%r%h%w\ [POS=%04l,%04v]\ [LINES=%L]
 set laststatus=2
 
+" Open horizontal split window beneath current window
+set splitbelow
+
+" Open vertical split window to right of current window
+set splitright
+
 " =================
 " Spelling Settings
 " =================
