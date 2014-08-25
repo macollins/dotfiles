@@ -85,8 +85,10 @@ set cursorline
 " Start scrolling n lines before bottom of screen
 set scrolloff=8
 
-" Don't wrap lines
+" Don't wrap lines except...
 set nowrap
+" ...for Markdown and text files
+autocmd FileType text,markdown setlocal wrap linebreak nolist
 
 " A more informative status line positioned just above the command buffer
 set statusline=%F%m%r%h%w\ [POS=%04l,%04v]\ [LINES=%L]
