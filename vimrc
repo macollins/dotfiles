@@ -100,6 +100,10 @@ set splitbelow
 " Open vertical split window to right of current window
 set splitright
 
+" Insert new line without entering insert mode
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
+
 " =================
 " Spelling Settings
 " =================
