@@ -136,7 +136,7 @@ set smartcase
 map <silent> <LocalLeader>nh :nohls<CR>
 
 " ============================
-" Ths Silver Searcher Settings
+" The Silver Searcher Settings
 " ============================
 
 " See http://robots.thoughtbot.com/faster-grepping-in-vim
