@@ -11,3 +11,9 @@ Create syminks:
     ln -s ~/dotfiles/gvimrc ~/.gvimrc
     ln -s ~/dotfiles/zshrc ~/.zshrc
 
+Vim will default to using the Menlo font unless one of the alternatives fonts
+is installed:
+
+  1. [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+  2. [Inconsolata](http://levien.com/type/myfonts/inconsolata.html)
+

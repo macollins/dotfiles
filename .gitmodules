@@ -65,3 +65,6 @@
 [submodule "vim/bundle/vim-ruby-minitest"]
 	path = vim/bundle/vim-ruby-minitest
 	url = https://github.com/sunaku/vim-ruby-minitest.git
+[submodule "vim/bundle/vim-fontdetect"]
+	path = vim/bundle/vim-fontdetect
+	url = https://github.com/drmikehenry/vim-fontdetect.git
