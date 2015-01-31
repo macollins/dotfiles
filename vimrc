@@ -122,6 +122,10 @@ nmap <silent> <leader>s :set spell!<CR>
 " Enable spell checking for Git commmit messages
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
+" Enable spell checking for Markdown files
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd BufRead,BufNewFile *.markdown setlocal spell
+
 " ===============
 " Search Settings
 " ===============
