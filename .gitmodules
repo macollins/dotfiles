@@ -50,9 +50,6 @@
 [submodule "vim/bundle/ag"]
 	path = vim/bundle/ag
 	url = https://github.com/rking/ag.vim
-[submodule "vim/bundle/vim-golang"]
-	path = vim/bundle/vim-golang
-	url = git@github.com:jnwhiteh/vim-golang.git
 [submodule "vim/bundle/vim-scala"]
 	path = vim/bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
