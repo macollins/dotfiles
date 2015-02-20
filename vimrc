@@ -30,11 +30,14 @@ let NERDTreeShowHidden = 1
 " ==============
 " CtrlP Settings
 " ==============
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-  \ 'file': '\v\.(exe|so|dll|.DS_Store|pyc)$'
-  \ }
-let g:ctrlp_show_hidden = 1
+" Commented out CtrlP settings as they are ignored when using
+" The Silver Searcher and ctrlp_user_command
+" See http://stackoverflow.com/questions/18285751/use-ag-in-ctrlp-vim
+"let g:ctrlp_custom_ignore = {
+"  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+"  \ 'file': '\v\.(exe|so|dll|.DS_Store|pyc)$'
+"  \ }
+"let g:ctrlp_show_hidden = 1
 
 " ===================
 " Tabularize Settings
@@ -147,7 +150,7 @@ if executable('ag')
   " Use ag instead of grep
   set grepprg=ag\ --no-group\ --no-color
   " Use ag in CtrlP
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+  let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
   " No need for CtrlP to cache
   let g:ctrlp_use_caching = 0
 endif
