@@ -10,6 +10,7 @@ Create syminks:
     ln -s ~/dotfiles/vimrc ~/.vimrc
     ln -s ~/dotfiles/gvimrc ~/.gvimrc
     ln -s ~/dotfiles/zshrc ~/.zshrc
+    ln -s ~/dotfiles/agignore ~/.agignore
 
 Vim will default to using the Menlo font unless one of the alternatives fonts
 is installed:
