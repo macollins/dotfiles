@@ -116,6 +116,9 @@ set spelllang=en_us
 " Toggle spell checking with <leader>s
 nmap <silent> <leader>s :set spell!<CR>
 
+" Enable spell checking for Git commmit messages
+autocmd Filetype gitcommit setlocal spell textwidth=72
+
 " ===============
 " Search Settings
 " ===============
