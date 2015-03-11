@@ -163,6 +163,9 @@ endif
 " Development Settings
 " ====================
 
+" Enable vim-ruby-minitest completion with <C-x> <C-u>
+set completefunc=syntaxcomplete#Complete
+
 " Setup text-object for Ruby blocks.
 " http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/
 runtime macros/matchit.vim
