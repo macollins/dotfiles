@@ -2,7 +2,6 @@
 
 * ansible
 * cabal-install
-* chruby
 * dnsmasq
 * dos2unix
 * ghc
@@ -18,7 +17,7 @@
 * python3
 * rabbitmq
 * redis
-* ruby-build
+* rbenv
 * sqlite
 * the\_silver\_searcher
 * tmux
