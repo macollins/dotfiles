@@ -10,3 +10,9 @@ export KEYTIMEOUT=2
 # Activate rbenv if installed
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# Location of completion files
+fpath=(~/dotfiles/zsh/completions $fpath)
+
+# Initialize completion system
+autoload -U compinit
+compinit
