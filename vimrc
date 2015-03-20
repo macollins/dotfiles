@@ -53,6 +53,12 @@ vmap <leader>t, :Tabularize /,\zs<CR>
 " General Settings
 " ================
 
+" Disable arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 " Increase history from 20 default
 set history=50
 
