@@ -19,3 +19,5 @@ fpath=(~/dotfiles/zsh/completions $fpath)
 # Initialize completion system
 autoload -U compinit
 compinit
+
+export PATH=/usr/local/sbin:$PATH
