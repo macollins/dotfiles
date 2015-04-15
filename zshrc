@@ -20,4 +20,8 @@ fpath=(~/dotfiles/zsh/completions $fpath)
 autoload -U compinit
 compinit
 
+# Configure pip for Python development
+export PIP_REQUIRE_VIRTUALENV=true     # Only run pip when virtualenv activated
+export PIP_DOWNLOAD_CACHE=~/.pip/cache # Cache pip installed packaged
+
 export PATH=/usr/local/sbin:$PATH
