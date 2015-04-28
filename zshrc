@@ -24,4 +24,20 @@ compinit
 export PIP_REQUIRE_VIRTUALENV=true     # Only run pip when virtualenv activated
 export PIP_DOWNLOAD_CACHE=~/.pip/cache # Cache pip installed packaged
 
+# Aliases
+
+# ls
+alias ll='ls -hl'
+alias lla='ls -hal'
+alias llt='ls -hltr'
+alias lsd='ls -l | grep "^d" ' # list directories only
+
+# top
+alias tc='top -o cpu'
+alias tm='top -o vsize'
+
+# Bundler
+alias be='bundle exec '
+alias bx='bundle exec '
+
 export PATH=/usr/local/sbin:$PATH
