@@ -1,1 +1,4 @@
 .git
+log
+tmp
+vendor
