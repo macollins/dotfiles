@@ -47,4 +47,7 @@ alias tm='top -o vsize'
 alias be='bundle exec '
 alias bx='bundle exec '
 
+# Development
+alias bert='bundle exec rake test'
+
 export PATH=/usr/local/sbin:$PATH
