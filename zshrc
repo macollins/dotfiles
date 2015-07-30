@@ -31,6 +31,16 @@ precmd () { __git_ps1 "[%n@%m] %~%s" " $ "}
 export PIP_REQUIRE_VIRTUALENV=true     # Only run pip when virtualenv activated
 export PIP_DOWNLOAD_CACHE=~/.pip/cache # Cache pip installed packaged
 
+# History
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+setopt append_history         # Append new history to existing history
+setopt inc_append_history     # Don't wait for shell to exit before appending commands
+setopt hist_ignore_dups       # Do not store command if same as previous
+setopt hist_expire_dups_first # When history is full remove dups first
+setopt hist_no_store          # Do not store history or fc commands
+
 # Aliases
 
 # ls
