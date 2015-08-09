@@ -57,6 +57,22 @@ alias tm='top -o vsize'
 alias be='bundle exec '
 alias bx='bundle exec '
 
+# Git
+
+# See: https://github.com/thoughtbot/dotfiles/blob/6a034a7d659ef332345d17d55aaf47994aa9f96b/zsh/functions/g
+# No arguments: `git status`
+# With arguments: acts like `git`
+g() {
+  if [[ $# > 0 ]]; then
+    git $@
+  else
+    git status
+  fi
+}
+
+# Complete go like git
+compdef g=git
+
 # Development
 alias bert='bundle exec rake test'
 
