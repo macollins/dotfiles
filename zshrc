@@ -73,7 +73,10 @@ g() {
 # Complete go like git
 compdef g=git
 
-# Development
+# Ruby development
 alias bert='bundle exec rake test'
+
+# Go development
+export GOPATH=~/Development/go
 
 export PATH=/usr/local/sbin:$PATH
