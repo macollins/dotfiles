@@ -16,17 +16,6 @@ filetype plugin indent on
 call pathogen#infect()
 call pathogen#helptags()
 
-" ==================
-" NERD Tree Settings
-" ==================
-
-" Toggle NERD Tree open/closed with F2
-" See www.catonmat.net/blog/vim-plugins-nerdtree-vim
-map <F2> :NERDTreeToggle<CR>
-
-" Show hidden files
-let NERDTreeShowHidden = 1
-
 " ==============
 " CtrlP Settings
 " ==============
