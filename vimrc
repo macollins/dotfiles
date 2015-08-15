@@ -70,8 +70,8 @@ set nowritebackup
 " Disable entering Ex mode
 :map Q <Nop>
 
-" See www.vim.org/scripts/script.php?script_id=1891
-colorscheme vividchalk
+"colorscheme vividchalk " See www.vim.org/scripts/script.php?script_id=1891
+colorscheme molokai " See https://github.com/fatih/molokai
 
 " Use visual instead of audible bell
 set visualbell
