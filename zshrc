@@ -45,6 +45,9 @@ setopt hist_no_store          # Do not store history or fc commands
 
 alias utcdate='TZ=utc date'
 
+# history
+alias h='history 1'
+
 # ls
 alias ll='ls -hl'
 alias lla='ls -hal'
