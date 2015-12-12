@@ -194,3 +194,7 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+" Move visual block with J or K
+" See http://vimrcfu.com/snippet/77
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
