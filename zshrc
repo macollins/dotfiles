@@ -10,15 +10,17 @@ export KEYTIMEOUT=2
 # Activate rbenv if installed
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-# Load AWS CLI completion if installed
-if which aws_zsh_completer.sh > /dev/null; then source `which aws_zsh_completer.sh`; fi
-
 # Location of completion files
 fpath=(~/dotfiles/zsh/completions $fpath)
 
 # Initialize completion system
 autoload -U compinit
 compinit
+
+# Load AWS CLI completion if installed
+if [[ -f /usr/local/share/zsh/site-functions/_aws ]]; then
+  source /usr/local/share/zsh/site-functions/_aws;
+fi
 
 # Helpful prompt
 source ~/dotfiles/zsh/git-prompt.sh
