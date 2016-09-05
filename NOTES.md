@@ -7,6 +7,7 @@
 * ghc
 * git
 * go
+* httpie
 * jq
 * macvim
 * mysql
