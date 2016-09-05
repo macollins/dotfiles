@@ -18,3 +18,7 @@ is installed:
   1. [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
   2. [Inconsolata](http://levien.com/type/myfonts/inconsolata.html)
 
+
+Updating submodules:
+
+  git submodule update --remote --merge
