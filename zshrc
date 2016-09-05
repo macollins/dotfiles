@@ -70,6 +70,9 @@ alias ....='cd ../../..'
 alias be='bundle exec '
 alias bx='bundle exec '
 
+# Silver Searcher
+alias agr='ag --ruby'
+
 # Colorize man pages
 # See: http://boredzo.org/blog/archives/2016-08-15/colorized-man-pages-understood-and-customized
 man() {
