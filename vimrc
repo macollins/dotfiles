@@ -113,6 +113,8 @@ set splitright
 " Insert new line without entering insert mode
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
+" Move to next window
+map <leader>w <C-w>w
 
 " =================
 " Spelling Settings
