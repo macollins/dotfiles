@@ -104,15 +104,20 @@ autocmd FileType text,markdown setlocal wrap linebreak nolist
 set statusline=%F%m%r%h%w\ [POS=%04l,%04v]\ [LINES=%L]
 set laststatus=2
 
+" Insert new line without entering insert mode
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
+
+" ================
+" Windows Settings
+" ================
+
 " Open horizontal split window beneath current window
 set splitbelow
 
 " Open vertical split window to right of current window
 set splitright
 
-" Insert new line without entering insert mode
-nmap <S-Enter> O<Esc>
-nmap <CR> o<Esc>
 " Move to next window
 map <leader>w <C-w>w
 
