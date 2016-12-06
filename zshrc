@@ -43,6 +43,10 @@ setopt hist_ignore_dups       # Do not store command if same as previous
 setopt hist_expire_dups_first # When history is full remove dups first
 setopt hist_no_store          # Do not store history or fc commands
 
+# Prevent annoying XON/XOFF behavior
+# See: http://superuser.com/questions/124845/can-you-disable-the-ctrl-s-xoff-keystroke-in-putty
+stty -ixon
+
 # Aliases
 
 alias utcdate='TZ=utc date'
