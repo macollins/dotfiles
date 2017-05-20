@@ -62,9 +62,6 @@ alias lsd='ls -l | grep "^d" ' # list directories only
 alias tc='top -o cpu'
 alias tm='top -o vsize'
 
-# clear
-alias c='clear'
-
 # cd
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -72,7 +69,6 @@ alias ....='cd ../../..'
 
 # Bundler
 alias be='bundle exec '
-alias bx='bundle exec '
 
 # Silver Searcher
 alias agr='ag --ruby'
