@@ -17,10 +17,8 @@ fpath=(~/dotfiles/zsh/completions $fpath)
 autoload -U compinit
 compinit
 
-# Load AWS CLI completion if installed
-if [[ -f /usr/local/share/zsh/site-functions/_aws ]]; then
-  source /usr/local/share/zsh/site-functions/_aws;
-fi
+# Load AWS CLI completion if installed (after compinit has run)
+if which aws_zsh_completer.sh > /dev/null; then source `which aws_zsh_completer.sh`; fi
 
 # Helpful prompt
 source ~/dotfiles/zsh/git-prompt.sh
