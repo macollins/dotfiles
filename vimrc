@@ -177,6 +177,12 @@ endif
 " Development Settings
 " ====================
 
+" Terraform indentation
+let g:terraform_align = 1
+
+" Terraform vim-commentary comment style
+autocmd FileType terraform setlocal commentstring=#%s
+
 " Enable vim-ruby-minitest completion with <C-x> <C-u>
 set completefunc=syntaxcomplete#Complete
 
