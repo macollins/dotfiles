@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.json set ft=javascript
+autocmd BufNewFile,BufRead *.json,*.ejson set ft=javascript
